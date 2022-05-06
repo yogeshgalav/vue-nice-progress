@@ -1,4 +1,4 @@
-import VueNiceProgress from "./VueNiceProgress.js";
+import VueNiceProgress from "./VueNiceProgress.vue";
 
 function install(Vue) {
   if (install.installed) return;
