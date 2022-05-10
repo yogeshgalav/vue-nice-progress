@@ -18,7 +18,10 @@ npm install vue-nice-progress
 import VueProgress from 'vue-nice-progress'
 
 export default {
-    components:{VueProgress}
+    components:{VueProgress},
+    data(){
+      percent:50
+    }
 }
 </script>
 ```
