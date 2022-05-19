@@ -2,7 +2,7 @@
 This is the light weight and good looking spiral progress bar with percantage value change and animation on intitalizing and on value change. 
 
 # Image
-<img src="progress-0.png" alt="J" width="200"/>
+<img src="progress-50.png" alt="J" width="200"/>
 
 ## Project setup
 ```
