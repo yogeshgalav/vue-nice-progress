@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <VueNiceProgress :value="50"/>
+    <p>Progress bar will help you to keep record.</p>
+    <VueNiceProgress :value="progressValue"/>
+    <p>{{progressValue}}% completed</p>
   </div>
 </template>
 
@@ -12,6 +14,12 @@ export default {
   name: 'App',
   components: {
     VueNiceProgress,
+  },
+  data(){
+    return{
+      progressValue:50
+
+    }
   }
 }
 </script>
